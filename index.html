@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkillStack - Visual Learning Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>SkillStack 📚</h1>
+    <p>Add and visualize your growing skillset!</p>
+
+    <form id="skill-form">
+      <input type="text" id="skill-input" placeholder="Enter a new skill..." required />
+      <select id="level-input">
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
+      </select>
+      <button type="submit">Add Skill</button>
+    </form>
+
+    <div id="skill-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
